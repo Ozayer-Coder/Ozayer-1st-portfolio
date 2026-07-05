@@ -1,0 +1,6 @@
+git init
+git add add .
+git commit -m "Meaningfull word"
+git branch -M main
+git remote add origin https://github.com/Ozayer-Coder/Ozayer-1st-portfolio.git
+git push -u origin main
