@@ -23,3 +23,13 @@ new Typed("#typing", {
     backDelay: 1500,
     loop: true
 });
+// live clock 
+ function updateClock() {
+            const now = new Date();
+            // Format to 12-hour or 24-hour time
+            document.getElementById('live-clock').textContent = now.toLocaleTimeString();
+        }
+        // Update the clock every 1000 milliseconds (1 second)
+        setInterval(updateClock, 1000);
+        // Initialize the clock immediately on page load
+        updateClock();

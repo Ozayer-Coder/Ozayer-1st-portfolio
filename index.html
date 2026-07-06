@@ -8,8 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/styel.css">
-    <link rel="shortcut icon" href="assets/Ozayer.png" type="image/x-icon">
-       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="assets/Ozayer-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles/media.css">
 </head>
 
 <body>
@@ -58,16 +59,19 @@
         <!-- hero start  -->
         <div id="home">
             <section class="container">
-                <div class="hero-container">
-                    <div class="hero">
+                <div class="hero">
+                    <div class="hero-content">
                         <h1 class="heading">
-                            Hi, I'm <span id="text-primary">Ozayer</span>
+                            Hello, I'm <span class="text-primary"><strong> Ozayer</strong></span>
                         </h1>
                         <h2>
                             <span id="typing"></span>
                         </h2>
-                        <p>
+                        <p class="p-body">
                             Building modern and responsive websites.
+                        </p>
+                        <p class="pbody">
+                            Cool UI/UX design
                         </p>
                         <div class="hero-btns">
                             <a href="Ozayer_Ibne_Kamal_CV.pdf" class="btn-custom btn-primary-custom" target="_blank">
@@ -75,7 +79,7 @@
                             </a>
 
                             <a href="#contact" class="btn-custom btn-secondary-custom">
-                                <i class="bi bi-chat"></i> Hire Me
+                                <i class="bi bi-chat" id="icon"></i> Hire Me
                             </a>
                         </div>
 
@@ -83,7 +87,7 @@
 
                     </div>
                     <div class="hero-img">
-                        <img src="assets/hero-pic.png" alt="">
+                        <img src="assets/hero-pic.png" alt="hero">
                     </div>
                 </div>
 
@@ -91,6 +95,181 @@
         </div>
         <!-- hero end -->
     </header>
+    <main>
+        <!-- about me start  -->
+        <div id="about" class="container">
+            <div class="heading-2">
+                <h1>About Myself
+                </h1>
+            </div>
+
+
+
+            <div class="card-body col-sm-6 card p-5">
+                <h2 class="text-center">
+                    Get to know me
+                </h2>
+                <h4>Hi, I'm Ozayer Ibne Kamal</h4>
+                <p class="p-body">I'm a student and aspiring frontend developer from Bangladesh. I enjoy building
+                    responsive,
+                    clean, and user-friendly websites. I'm currently learning JavaScript, React, and modern web
+                    development.My goal is to grow into a full-stack software engineer, contribute to meaningful
+                    projects, and continuously improve my skills.</p>
+                <ul>
+                    <li><i class="bi bi-geo-alt-fill" id="icon"></i> Bangladesh</li>
+                    <li><i class="bi bi-mortarboard-fill" id="icon"></i> Student</li>
+                    <li><i class="bi bi-code-slash" id="icon"></i> Frontend Developer</li>
+                    <li><i class="bi bi-rocket-takeoff-fill" id="icon"></i> Learning JS</li>
+                    <li><i class="bi bi-globe-central-south-asia" id="icon"></i> English & Bangla</li>
+                </ul>
+            </div>
+
+
+        </div>
+        <!-- about me end -->
+        <!-- skills start  -->
+        <div class="container" id="skill">
+            <div class="heading-2">
+                <h1> MY Skills
+                </h1>
+            </div>
+            <h2 class="text-center">
+                Skills that power My code
+            </h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card card-body">
+                        <img src="assets/HTML5.svg" class="card-img-top" alt="...">
+                        <div>
+                            <h4 class="text-center m-5">HTML5</h4>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-body">
+                        <img src="assets/CSS3.svg" class="card-img-top" alt="...">
+                        <div>
+                            <h4 class="text-center m-5">CSS3</h4>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-body">
+                        <img src="assets/JavaScript.svg" class="card-img-top" alt="...">
+                        <div>
+                            <h4 class="text-center m-5">Javascript</h4>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-body">
+                        <img src="assets/Bootstrap.svg" class="card-img-top" alt="...">
+                        <div>
+                            <h4 class="text-center m-5">Bootstrap</h4>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-body">
+                        <img src="assets/Tailwind CSS.svg" class="card-img-top" alt="...">
+                        <div>
+                            <h4 class="text-center m-5">Tailwind CSS</h4>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-body">
+                        <img src="assets/Git.svg" class="card-img-top" alt="...">
+                        <div>
+                            <h4 class="text-center m-5">Git</h4>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- skills end -->
+        <!-- projects start  -->
+        <div class="container" id="project">
+            <div class="heading-2">
+                <h1>Featured Projects
+                </h1>
+            </div>
+            <h2 class="text-center">
+                Some of the Projects I have built
+            </h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card card-body">
+                        <img src="assets/project-1.png" class="card-img-top card" alt="...">
+                        <div class="m-4 p-3">
+                            <h4>Blooming Oasis</h4>
+                            <p class="card-text pbody">Blooming Oasis is a Plant Store website. Where various types of
+                                plants are for sell.</p>
+                            <h5> <i class="bi bi-rocket-takeoff-fill" id="icon"></i> HTML5 | CSS3 | Bootstrap | JS</h5>
+                            <div class="hero-btns">
+                                <a href="https://ozayer-coder.github.io/Blooming-Oasis/"
+                                    class="btn-custom btn-primary-custom" target="_blank">
+                                    <i class="bi bi-link-45deg"></i> Live demo
+                                </a>
+
+                                <a href="https://github.com/Ozayer-Coder/Blooming-Oasis"
+                                    class="btn-custom btn-secondary-custom" target="_blank">
+                                    <i class="bi bi-github" id="icon"></i> Github
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-body">
+                        <img src="assets/project-2.png" class="card-img-top card" alt="...">
+                        <div class="m-4 p-3">
+                            <h4>Portfolio Website</h4>
+                            <p class="card-text pbody">This is a demo portfolio website of Ozayer Ibne Kamal. This
+                                project was made within 3 hour only.</p>
+                            <h5> <i class="bi bi-rocket-takeoff-fill" id="icon"></i> HTML5 | CSS3 | Bootstrap | JS</h5>
+                            <div class="hero-btns">
+                                <a href="https://ozayer-coder.github.io/WDDF-JOB/" class="btn-custom btn-primary-custom"
+                                    target="_blank">
+                                    <i class="bi bi-link-45deg"></i> Live demo
+                                </a>
+
+                                <a href="https://github.com/Ozayer-Coder/WDDF-JOB"
+                                    class="btn-custom btn-secondary-custom" target="_blank">
+                                    <i class="bi bi-github" id="icon"></i> Github
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- projects end  -->
+    </main>
+    <!-- Footer with Live Clock -->
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Ozayer Ibne Kamal. All rights reserved. <img src="assets/icon-fb.png" alt="fb">
+                <img src="assets/icon-github.png" alt="git">
+                <img src="assets/icon-instagram.png" alt="insta">
+            </p>
+
+            <!-- Clock Element -->
+            <div class="mt-2 text-light fs-5">
+                <p>Current Time : <span id="live-clock" class="text-warning">00:00:00</span></p>
+
+            </div>
+        </div>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

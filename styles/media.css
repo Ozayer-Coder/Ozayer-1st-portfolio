@@ -1,0 +1,30 @@
+@media (max-width: 576px) {
+  .hero {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .home {
+    padding-top: 150px;
+  }
+  .hero-content {
+    width: 100%;
+    height: 300px;
+  }
+
+  .hero-img {
+    width: 100%;
+    text-align: left;
+    padding: 0px;
+    margin-top: 0px;
+  }
+
+  #home {
+    background-position: center;
+    background-size: cover;
+  }
+  .navbar {
+        background: #f8fafc;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+    }
+}
