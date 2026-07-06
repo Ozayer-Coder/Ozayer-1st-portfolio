@@ -130,17 +130,18 @@ body {
 ul {
   list-style: none;
 }
-.card-body {
+.card-body-1 {
   background-color: #ffffff;
   border: 2px solid #e2e8f0;
   transition-duration: 0.5s;
   border-radius: 16px;
+  padding: 10px;
 }
-.card-body h2 {
+.card-body-1 h2 {
   border-bottom: 2px solid #64748b;
   margin-bottom: 20px;
 }
-.card-body:hover {
+.card-body-1:hover {
   background: #fff;
   box-shadow: 5px 8px 30px rgba(0, 0, 0, 0.08);
   transform: translateY(-8px);
